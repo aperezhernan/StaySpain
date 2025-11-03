@@ -88,32 +88,34 @@ The analysis combined **exploratory data analysis (EDA)** with advanced statisti
 
 ## Project Structure
 
+# StaySpain Repository Structure
+
 StaySpain/
-│
-├─ .github/                 # GitHub configurations, workflows, etc.
-├─ recursos/                # Resources and datasets used in the project
-│
-├─ week_01_2025-09-15/      # Week 1
-│   ├─ data/                # Raw and processed data
-│   ├─ notebooks/           # Jupyter notebooks with analysis
-│   └─ results/             # Results, visualizations, and reports
-│
-├─ week_02_2025-09-22/      # Week 2
+├─ .github/                 
+│   └─ GitHub configurations, workflows, etc.
+├─ recursos/                
+│   └─ Resources and datasets used in the project
+├─ week_01_2025-09-15/      
+│   ├─ data/                
+│   │   └─ Raw and processed data
+│   ├─ notebooks/           
+│   │   └─ Jupyter notebooks with analysis
+│   └─ results/             
+│       └─ Results, visualizations, and reports
+├─ week_02_2025-09-22/      
 │   ├─ data/
 │   ├─ notebooks/
 │   └─ results/
-│
-├─ week_03_2025-10-06/      # Week 3
+├─ week_03_2025-10-06/      
 │   ├─ data/
 │   ├─ notebooks/
 │   └─ results/
-│
-├─ week_04_2025-10-14/      # Week 4
+├─ week_04_2025-10-14/      
 │   ├─ data/
 │   ├─ notebooks/
 │   └─ results/
-│
-└─ README.md                # Main project documentation
+└─ README.md                
+    └─ Main project documentation
 
 
 
@@ -132,7 +134,7 @@ Results were presented to stakeholders through data-driven presentation and visu
 
 ---
 
-## 👤 Author
+## Author
 
 **Alejandro Pérez-Hernández**
 Data Analyst – Data storytelling and visualization
