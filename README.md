@@ -88,18 +88,34 @@ The analysis combined **exploratory data analysis (EDA)** with advanced statisti
 
 ## Project Structure
 
-/week 1/results/ → Analysis outputs and visualizations for week 1
-/week 2/data/ → Datasets for week 2 analysis
-/week 2/results/ → Analysis outputs and visualizations for week 2
-/week 3/data/ → Datasets for week 3 analysis
-/week 3/results/ → Analysis outputs and visualizations for week 3
-/week 4/data/ → Datasets for week 4 analysis
-/week 4/results/ → Analysis outputs and visualizations for week 4
-README.md → Project documentation
+StaySpain/
+│
+├─ .github/                 # GitHub configurations, workflows, etc.
+├─ recursos/                # Resources and datasets used in the project
+│
+├─ week_01_2025-09-15/      # Week 1
+│   ├─ data/                # Raw and processed data
+│   ├─ notebooks/           # Jupyter notebooks with analysis
+│   └─ results/             # Results, visualizations, and reports
+│
+├─ week_02_2025-09-22/      # Week 2
+│   ├─ data/
+│   ├─ notebooks/
+│   └─ results/
+│
+├─ week_03_2025-10-06/      # Week 3
+│   ├─ data/
+│   ├─ notebooks/
+│   └─ results/
+│
+├─ week_04_2025-10-14/      # Week 4
+│   ├─ data/
+│   ├─ notebooks/
+│   └─ results/
+│
+└─ README.md                # Main project documentation
 
-recursos/ contains the main dataset and secondary sources.
-week 1/data/ → week 4/data/ contain CSV datasets for each week of analysis.
-week 1/results/ → week 4/results/ contain visualizations, plots, and analytical outputs.
+
 
 ---
 
@@ -118,7 +134,7 @@ Results were presented to stakeholders through data-driven presentation and visu
 
 ## 👤 Author
 
-**Álvaro Pérez-Hernán**
-Customer Experience Analyst – Data storytelling and visualization
+**Alejandro Pérez-Hernández**
+Data Analyst – Data storytelling and visualization
 
 [GitHub Repository](https://github.com/aperezhernan/StaySpain)
